@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+  	<meta charset="utf-8" />
+
+  	<!-- Set the viewport width to device width for mobile -->
+  	<meta name="viewport" content="width=device-width" />
+
+  	<title>Sam's Concrete and Landscaping</title>
+
+  	<!-- Included CSS Files -->
+  	<link rel="stylesheet" href="inc/foundation.css">
+  	<link rel="stylesheet" href="inc/app.css">
+  	<link rel="stylesheet" href="inc/nivo-slider.css">
+
+  	<link href='http://fonts.googleapis.com/css?family=Merriweather:400,900' rel='stylesheet' type='text/css'>
+
+    <!-- Included JS Files -->
+    <script src="inc/foundation.js"></script>
+    <script src="inc/app.js"></script>
+    <script type="text/javascript" src="inc/jquery.nivo.slider.pack.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.18/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="inc/jquery.backstretch.min.js"></script>
+    <script type="text/javascript">
+      $(window).load(function() {
+        $.backstretch("img/bg4.jpg");
+        $('#slider').nivoSlider( {
+          controlNavThumbs:true,
+          controlNavThumbsFromRel:true,
+          controlNavThumbsSearch: '.png', // Replace this with...
+          controlNavThumbsReplace: '_thumb.jpg',
+          directionNav: false
+        });
+      });
+
+      $(function() {
+        $( "#accordian" ).accordion({
+            collapsible:true,
+            icons: { 'header':'expand-button', 'headerSelected':'collapse-button'},
+        });
+      });
+    </script>
+
+  	<!--[if lt IE 9]>
+  		<link rel="stylesheet" href="stylesheets/ie.css">
+  	<![endif]-->
+
+  	<!-- IE Fix for HTML5 Tags -->
+  	<!--[if lt IE 9]>
+  		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  	<![endif]-->
+  </head>
+
+  <body>
+    <div id="requestModal" class="reveal-modal">
+      <p>Use this form to email us for a free quote!</p>
+      <form method="post" action="mailto:samsconcrete.com@gmail.com?Subject=Free+Quote+Request" class="nice" enctype="text/plain">
+			  Name: <input name="Name" type="text" id="Name" size="35" />&nbsp;&nbsp;&nbsp;
+				Phone: <input name="Phone" type="text" id="Phone" size="20" /><br/><br/>
+        <label for="Body">Body</label><textarea class="reqtext" name="Body" id="Body">Please contact me, I am interested in a free quote.</textarea>
+        <input name="submit" type="submit"  class="small button black" id="test" value="Send email">
+        <a class="close-reveal-modal">&#215;</a>
+      </form>
+    </div>
+
+    <div class="container">
+
+      <div class="row intro_row">
+        <div class="header_row">
+    		  <div class="two columns">
+    		    <div class="head_logo">
+    		      <a href="index.php"><img src="img/logo.png" /></a>
+    		    </div>
+    		  </div>
+    		  <div class="ten columns">
+    		    <div id="navbar">
+              <ul>
+                <li style="visibility:hidden;"><a href="index.php">Home</a></li>
+                <!--<li><a href="gallery.php">Gallery</a></li>-->
+                <li style="visibility:hidden;"><a href="services.php">Services</a></li>
+                <li style="visibility:hidden;"><a href="aboutus.php">About Us</a></li>
+                <li style="visibility:hidden;"><a href="contact.php">Contact Us</a></li>
+                <li class="mail"><a href="#" data-reveal-id="requestModal"><img src="img/mail_icon.png"></a></li>
+                <li class="phone">925-640-6283<li>
+              </ul>
+            </div>
+            <div id="contractornumber">
+              <p><a target="newwindow" href="https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=846815">CA Contractor #: 846815</a></p>
+            </div>
+    		  </div>
+    		</div>
+    	</div>
+    </div>
+
+    {{ content }}
+
+    <!--copyright notice on the bottom of each page, w. bond info-->
+    <div class="container">
+      <div class="row footer_bg">
+        <div class="twelve columns footer">
+          <p>Copyright Sam's Concrete and Landscaping, 2015</p>
+          samsconcrete.com@gmail.com<br/>
+          1112 N Main St, #156<br/>
+          MANTECA, CA. 95336<br/>
+          <br/>
+          <small>
+            Bond Company: OLD REPUBLIC SURETY COMPANY<br/>
+            Bond Number: W150110871
+          </small>
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>

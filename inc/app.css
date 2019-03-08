@@ -1,0 +1,478 @@
+/* Foundation v2.1.1 http://foundation.zurb.com */
+/* Artfully masterminded by ZURB  */
+
+/* --------------------------------------------------
+   Table of Contents
+-----------------------------------------------------
+:: Shared Styles
+:: Page Name 1
+:: Page Name 2
+*/
+
+
+/* -----------------------------------------
+   Shared Styles
+----------------------------------------- */
+
+body {
+	background-image:url('../img/bg1.jpg');
+}
+
+.header_row{
+	background-image:url('../img/header.png');
+	height:225px;
+}
+
+.head_logo img{
+	margin-top:70px;
+	margin-left:43px;
+
+}
+
+
+div#navbar {
+	height: 25px;
+	font-size:12pt;
+	display:block;
+	margin-left:45px;
+	margin-top:150px;
+}
+
+div#navbar ul {
+	margin: 0px;
+	padding: 0px;
+	line-height: 30px;
+	white-space: nowrap;
+}
+
+div#navbar li {
+	list-style-type: none;
+	display: inline;
+	float:left;
+	;
+	margin-right:25px;
+	margin-bottom:5px;
+}
+
+div#navbar li a {
+	text-decoration: none;
+	padding: 2px 2px 2px 2px;
+	display:block;
+	color: #FFFFFF;
+}
+
+.selected{
+	background-color:#ffffff;
+	color:black !important;
+
+}
+
+
+div#navbar li a:hover {
+	text-decoration: none;
+	padding: 2px 2px 2px 2px;
+	display:block;
+	color: #FFFFFF;
+}
+
+.phone {
+	text-decoration: none;
+	padding: 2px 2px 2px 2px;
+	display:block;
+	color: #FFFFFF;
+	margin-left:25px;
+}
+
+.mail {
+	margin-left:100px;
+}
+
+#contractornumber{
+	margin-top:20px;
+	margin-left:535px;
+}
+
+#contractornumber p{
+	font-weight:bold;
+}
+
+
+/* -----------------------------------------
+   HomePage
+----------------------------------------- */
+
+.nivoSlider {
+    position:relative;
+    width:650px; /* Change this to your images width */
+    height:275px; /* Change this to your images height */
+	margin-bottom:90px !important;
+	margin-left:0px !important;
+	margin-top:15px;
+}
+.nivoSlider img {
+    position:absolute;
+    top:0px;
+    left:0px;
+    display:none;
+}
+.nivoSlider a {
+    border:0;
+    display:block;
+
+}
+
+.nivo-controlNav {
+	position:absolute;
+	bottom: -70px; /* Put the nav below the slider */
+	left:px;
+
+}
+#slider .nivo-controlNav img {
+	display:inline; /* Unhide the thumbnails */
+	position:relative;
+	margin-right:10.5px;
+	height:50px !important;
+	width:50px !important;
+}
+
+#slider .nivo-controlNav a {
+	display:inline; /* Unhide the thumbnails */
+	position:relative;
+	margin-right:10.5px;
+}
+
+.active img {
+	border-style:solid;
+	border-width: 1px !important;
+	padding:2px;
+	border-color:#666666;
+	color:blue;
+}
+
+
+.intro_row{
+		/*background-image:url('../img/intro_row.png');*/
+
+
+}
+
+.slider_row{
+		/*background-image:url('../img/intro_row.png');*/
+
+
+}
+
+.footer_bg{
+	/*background-image:url('../img/intro_row.png');*/
+
+}
+
+.container{
+
+}
+
+.slider_container{
+	margin-top:px;
+}
+
+.intro_container{
+
+}
+
+
+.intro_text {
+	margin-top:35px;
+	width:650px;
+
+
+}
+
+.intro_text h3{
+	font-family:'Merriweather';
+	font-weight:900;
+	font-size:16px;
+}
+
+.intro_text p {
+	background-color:#F5F5F5;
+	color:#666666;
+	padding:10px;
+}
+
+.request_quote {
+	margin-top:52px;
+
+
+
+}
+
+.request_quote h3 {
+	font-family:'Merriweather';
+	font-weight:900;
+	font-size:16px;
+}
+
+.request_quote p {
+	background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAXElEQVQYGWP4//8/Awg3HfIDUhC2cea1/9/f6qHwiVIEMoCgSTBbwCaCONisgykCOQuskJAisNXEKAIrRPcdsnUwNsgwFDfCJNCD6u2zKIQb8SkCyYF9S0gRSB4AIhgc1fimv4QAAAAASUVORK5CYII=);
+	color:#666666;
+	padding:10px;
+	height:81px;
+	border-style:solid;
+	border-color:#666666;
+	border-width:2px;
+}
+
+.req-btn {
+	margin-top:20px;
+	margin-left:15px;
+}
+
+.reqtext{
+	width:500px;
+	height:200px;
+}
+
+#reqSub{
+	margin-bottom:10px;
+}
+
+#reqName{
+	margin-bottom:10px;
+}
+
+#reqEmail{
+	margin-bottom:10px;
+}
+
+
+.gal_shout p{
+
+	/*background-color:#019A6C;*/
+	background-color:#666666;
+	color:#ffffff;
+	padding:20px;
+	width:200px;
+	margin-left:25px;
+	margin-top:25px;
+}
+
+.gal_text{
+	position:absolute;
+}
+
+.gal_shout{
+	background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAXElEQVQYGWP4//8/Awg3HfIDUhC2cea1/9/f6qHwiVIEMoCgSTBbwCaCONisgykCOQuskJAisNXEKAIrRPcdsnUwNsgwFDfCJNCD6u2zKIQb8SkCyYF9S0gRSB4AIhgc1fimv4QAAAAASUVORK5CYII=);
+	height:340px;
+	border-style:solid;
+	border-color:#666666;
+	border-width:2px;
+	margin-top:15px;
+}
+
+.footer {
+	text-align:center;
+
+}
+
+/*.gallery_row{
+	background-image:url('../img/gal_tag.png');
+	height:25px;
+}
+
+.gallery_row p {
+	color:black;
+	font-size:14px;
+	padding:5px;
+	margin-left:25px;
+	width:350px;
+}
+
+#gal_arrow{
+
+	float:right;
+	margin-top:-42px;
+	margin-right:550px;
+}*/
+
+/* -----------------------------------------
+   Services
+----------------------------------------- */
+
+.gallery_row{
+	background-color:black;
+	height:450px;
+}
+
+.gallery_row h2 {
+	color:#ffffff;
+	padding-left:40px;
+	padding-top:10px;
+}
+
+.gallery_row p {
+	padding: 5px 40px 5px 40px;
+	color:#D3D3D3;
+}
+
+
+
+/* -----------------------------------------
+   Services
+----------------------------------------- */
+
+.services_row{
+	background-color:black;
+	height:450px;
+}
+
+.services_row h2 {
+	color:#ffffff;
+	padding-left:40px;
+	padding-top:10px;
+}
+
+.services_row h3{
+	color:#ffffff;
+	padding-left:65px;
+	font-size:18pt;
+}
+
+.services_row p {
+	padding: 5px 40px 5px 40px;
+	color:#D3D3D3;
+}
+
+.ui-icon.expand-button {
+    background-image: url('../img/expand.png') !important;
+	width:25px !important;
+	height:25px !important;
+	display:block;
+	background-repeat: no-repeat;
+	overflow:hidden;
+	margin-left:-25px;
+	margin-top:5px;
+	position:absolute;
+}
+
+.ui-icon.collapse-button {
+    background-image: url('../img/collapse.png') !important;
+	width:25px !important;
+	height:25px !important;
+	display:block;
+	background-repeat: no-repeat;
+	overflow:hidden;
+	margin-left:-25px;
+	margin-top:5px;
+	position:absolute;
+}
+
+/* -----------------------------------------
+   About Us
+----------------------------------------- */
+.aboutus_row{
+	background-color:black;
+}
+
+.aboutus_row h2 {
+	color:#ffffff;
+	padding-left:40px;
+	padding-top:10px;
+}
+
+.aboutus_row h3 {
+	color:#ffffff;
+	padding-left:40px;
+	padding-top:10px;
+}
+
+.aboutus_row p {
+	padding: 5px 40px 5px 40px;
+	color:#D3D3D3;
+	margin-bottom:10px;
+}
+
+.team_row {
+	background-color:black;
+}
+
+.team_row h3 {
+	color:#ffffff;
+	padding-left:0px;
+	padding-top:10px;
+}
+
+.team_row p {
+	padding: 5px 0px;
+	color:#D3D3D3;
+	margin-bottom:10px;
+}
+
+.team_row img {
+	padding-left:0px;
+	padding-bottom:10px;
+	padding-top:20px;
+}
+
+#bio_text {
+	margin-top:65px;
+}
+
+
+
+
+
+/* -----------------------------------------
+   Contact Us
+----------------------------------------- */
+
+.contact_row{
+	background-color:black;
+}
+
+.contact_row h2 {
+	color:#ffffff;
+	padding-left:40px;
+	padding-top:10px;
+}
+
+.contact_row p {
+	padding: 20px 40px 20px 40px;
+	text-align:center;
+	color:#DCDCDC;
+
+}
+
+.contact_row label{
+	color:white;
+
+
+}
+
+.contact_row input{
+	width:250px;
+}
+
+.contact_row textarea{
+	width:250px;
+}
+
+.contact_row form{
+	margin-left:300px;
+	padding-top:25px;
+	width:300px;
+}
+
+.contact_row fieldset h2{
+	font-size:16pt;
+	padding:5px;
+	margin-bottom:0px;
+}
+
+.contact_row fieldset p{
+	text-align:left;
+	padding:5px;
+}
+
+.contact_row fieldset {
+	padding:20px 50px;
+}
