@@ -38,9 +38,9 @@ layout: default
         <div class="gal_text">
           <p>
             <span style="font-size: 12pt;"><b>Concrete Services:</b></span><br/>
-            &nbsp;&bull;&nbsp;Driveways & extensions<br/>
-            &nbsp;&bull;&nbsp;Patios & walkways<br/>
-            &nbsp;&bull;&nbsp;Porches & steps<br/>
+            &nbsp;&bull;&nbsp;Driveways &amp; extensions<br/>
+            &nbsp;&bull;&nbsp;Patios &amp; walkways<br/>
+            &nbsp;&bull;&nbsp;Porches &amp; steps<br/>
             &nbsp;&bull;&nbsp;Garage and basement floors<br/>
             &nbsp;&bull;&nbsp;Hot tub/shed pads<br/>
             &nbsp;&bull;&nbsp;Stamped and Colored Concrete<br/>
