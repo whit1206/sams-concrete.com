@@ -10,7 +10,6 @@ layout: default
 
       <div id="slider" class="nivoSlider">
         <img src="img/landscape0.jpg" alt="" rel="img/landscape0_thumb.jpg" />
-        <img src="img/landscape1.jpg" alt="" rel="img/landscape1_thumb.jpg" />
         <img src="img/landscape2.jpg" alt="" rel="img/landscape2_thumb.png"/>
         <img src="img/landscape3.jpg" alt="" rel="img/landscape3_thumb.jpg" />
         <img src="img/landscape4.jpg" alt="" rel="img/landscape4_thumb.jpg"/>
